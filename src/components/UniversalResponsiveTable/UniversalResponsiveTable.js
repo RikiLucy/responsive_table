@@ -116,7 +116,7 @@ class UniversalResponsiveTable extends Component {
               }
             })}
       
-            <th onClick={() => this.mySort(tbody.length - 1)}>
+            <th onClick={() => this.mySort(tbody[0].length - 1)}>
               {thead[thead.length - 1].label}
               <i className="la la-unsorted"></i>
             </th>
